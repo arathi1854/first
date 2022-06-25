@@ -1,0 +1,27 @@
+//Factorial Program
+
+import 'dart:io';
+
+void main(List<String> args) {
+  int fac = 1;
+
+  //get number
+  print("Please enter number:");
+  var j = stdin.readLineSync();
+
+  //check number for null
+  if (j != null) {
+
+    //convert type to int
+    int i = int.parse(j);
+
+    //loop for Computing factorial
+    for (i; i >= 1; i--) {
+
+      //fac = fac * i
+      fac *= i;
+    }
+    //show result
+    print("Factorial of $j is $fac");
+  }
+}
