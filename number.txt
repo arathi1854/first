@@ -1,0 +1,14 @@
+void main() {
+  List persons = [
+    {'name': 'alice', 'age': 65},
+    {'name': 'bob', 'age': 54},
+    {'name': 'denice', 'age': 14},
+    {'name': 'anu', 'age': 17},
+    {'name': 'sanil', 'age': 22},
+    {'name': 'kavitha', 'age': 11}
+  ];
+  for (int i = 0; i < persons.length; i++) {
+    if (persons[i]['age'] <= 18)
+      print(persons[i]['name']);
+  }
+}

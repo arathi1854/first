@@ -1,0 +1,12 @@
+void main()
+{
+
+  List nameList=['avanthika','avani','athulya','ammu','akhila','anu','anjana'];
+  print("names with greater 5 letters");
+  for(int i=0;i<nameList.length;i++)
+  {
+    if(nameList[i].length>5)
+      print(nameList[i]);
+  }
+
+}
